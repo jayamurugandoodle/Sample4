@@ -14,6 +14,7 @@
 		571F8B781B8F1779006DB5B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571F8B771B8F1779006DB5B4 /* Images.xcassets */; };
 		571F8B7B1B8F1779006DB5B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571F8B791B8F1779006DB5B4 /* LaunchScreen.xib */; };
 		571F8B871B8F1779006DB5B4 /* Sample4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F8B861B8F1779006DB5B4 /* Sample4Tests.m */; };
+		5728CD931BE22600004D9FA0 /* sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728CD921BE22600004D9FA0 /* sample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		571F8B801B8F1779006DB5B4 /* Sample4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		571F8B851B8F1779006DB5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		571F8B861B8F1779006DB5B4 /* Sample4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample4Tests.m; sourceTree = "<group>"; };
+		5728CD921BE22600004D9FA0 /* sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sample.m; path = ../sample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		571F8B691B8F1779006DB5B4 /* Sample4 */ = {
 			isa = PBXGroup;
 			children = (
+				5728CD921BE22600004D9FA0 /* sample.m */,
 				571F8B6E1B8F1779006DB5B4 /* AppDelegate.h */,
 				571F8B6F1B8F1779006DB5B4 /* AppDelegate.m */,
 				571F8B711B8F1779006DB5B4 /* ViewController.h */,
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				571F8B731B8F1779006DB5B4 /* ViewController.m in Sources */,
+				5728CD931BE22600004D9FA0 /* sample.m in Sources */,
 				571F8B701B8F1779006DB5B4 /* AppDelegate.m in Sources */,
 				571F8B6D1B8F1779006DB5B4 /* main.m in Sources */,
 			);
@@ -416,6 +420,7 @@
 				571F8B8C1B8F1779006DB5B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		571F8B8D1B8F1779006DB5B4 /* Build configuration list for PBXNativeTarget "Sample4Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				571F8B8F1B8F1779006DB5B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
